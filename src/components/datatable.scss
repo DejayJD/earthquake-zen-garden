@@ -1,0 +1,10 @@
+.list-table {
+  th {
+    height: 30px;
+    line-height: 1;
+    min-width: 110px;
+  }
+  td:first-child {
+    text-align: left;
+  }
+}

@@ -1,0 +1,28 @@
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-grid-container {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  img {
+    width: 100%;
+  }
+}
+.profile-table {
+  text-align: left;
+  vertical-align: top;
+  tr:not(:last-child) td {
+    padding-bottom: 0.5rem;
+  }
+}
+.profile-table-left-column {
+  font-weight: bold;
+  vertical-align: top;
+  width: 35%;
+}

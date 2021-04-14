@@ -1,0 +1,25 @@
+@import "../style-variables";
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background: $light-gray;
+  color: $dark-gray;
+  padding: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.navbar-brand {
+  height: 50px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}

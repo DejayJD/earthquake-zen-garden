@@ -1,0 +1,19 @@
+.detail-view-container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.detail-table {
+  text-align: left;
+  vertical-align: top;
+}
+
+.detail-table-left-column {
+  font-weight: bold;
+  vertical-align: top;
+  width: 35%;
+}
